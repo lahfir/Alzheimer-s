@@ -2,7 +2,8 @@
 
     &__container {
         & .rodal-dialog {
-  
+            min-height: 45%;
+
             @media only screen and (max-width: 420px) {
                 width: 350px !important;
             }
@@ -11,6 +12,10 @@
                 width: 315px !important;
             }
         }
+    }
+
+    &__discrepancy_container {
+        margin: 20px 0;
     }
 
     &__title {
@@ -22,6 +27,7 @@
     }
 
     &__content {
+        height: auto;
         border-bottom: 1px solid #ddd;
         padding-top: 1rem;
         padding-bottom: 1rem;
